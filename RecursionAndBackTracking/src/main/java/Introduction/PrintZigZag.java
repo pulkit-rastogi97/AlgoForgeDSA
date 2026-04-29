@@ -4,7 +4,7 @@ import InputUtilites.InputUtils;
 
 public class PrintZigZag {
     public static void main(String[] args) {
-        Integer num = InputUtils.inputInteger();
+        Integer num = InputUtils.integer();
         printZigZag(num);
     }
 

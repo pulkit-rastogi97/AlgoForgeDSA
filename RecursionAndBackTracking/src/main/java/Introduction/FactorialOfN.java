@@ -6,7 +6,7 @@ public class FactorialOfN {
 
     public static void main(String[] args) {
 
-        Integer n = InputUtils.inputInteger();
+        Integer n = InputUtils.integer();
 
         Integer factorial = factorial(n);
         System.out.println(factorial.intValue());

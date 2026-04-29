@@ -5,14 +5,14 @@ import InputUtilites.InputUtils;
 public class FinfFirstIndex {
 
     public static void main(String[] args) {
-        Integer size = InputUtils.inputInteger();
+        Integer size = InputUtils.integer();
 
         int[] arr = new int[size];
         for(int i = 0; i < size; i++){
-            arr[i] = InputUtils.inputInteger();
+            arr[i] = InputUtils.integer();
         }
 
-        Integer target = InputUtils.inputInteger();
+        Integer target = InputUtils.integer();
 
         int firstIndex = findFirstIndex(arr, 0, target);
         System.out.println(firstIndex);

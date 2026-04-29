@@ -5,8 +5,8 @@ import InputUtilites.InputUtils;
 public class XPowY {
 
     public static void main(String[] args) {
-        Integer x = InputUtils.inputInteger();
-        Integer y = InputUtils.inputInteger();
+        Integer x = InputUtils.integer();
+        Integer y = InputUtils.integer();
 
 //        Integer result = pow(x, y);
         Integer result = powLogN(x, y);

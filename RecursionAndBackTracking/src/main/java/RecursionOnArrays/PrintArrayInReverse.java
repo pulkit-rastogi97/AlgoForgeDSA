@@ -4,11 +4,11 @@ import InputUtilites.InputUtils;
 
 public class PrintArrayInReverse {
     public static void main(String[] args) {
-        Integer size = InputUtils.inputInteger();
+        Integer size = InputUtils.integer();
 
         int[] arr = new int[size];
         for(int i = 0; i < size; i++){
-            arr[i] = InputUtils.inputInteger();
+            arr[i] = InputUtils.integer();
         }
 
         printArrayInReverse(arr, 0);

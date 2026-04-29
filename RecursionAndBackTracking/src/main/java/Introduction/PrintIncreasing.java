@@ -5,7 +5,7 @@ import InputUtilites.InputUtils;
 public class PrintIncreasing {
 
     public static void main(String[] args) {
-        Integer n = InputUtils.inputInteger();
+        Integer n = InputUtils.integer();
 
         printIncreasing(n);
     }

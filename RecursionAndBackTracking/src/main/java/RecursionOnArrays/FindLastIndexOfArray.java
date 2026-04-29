@@ -5,14 +5,14 @@ import InputUtilites.InputUtils;
 public class FindLastIndexOfArray {
 
     public static void main(String[] args) {
-        Integer size = InputUtils.inputInteger();
+        Integer size = InputUtils.integer();
 
         int[] arr = new int[size];
         for(int i = 0; i < size; i++){
-            arr[i] = InputUtils.inputInteger();
+            arr[i] = InputUtils.integer();
         }
 
-        Integer target = InputUtils.inputInteger();
+        Integer target = InputUtils.integer();
 
         int max = findLastIndex(arr, 0, target);
         System.out.println(max);

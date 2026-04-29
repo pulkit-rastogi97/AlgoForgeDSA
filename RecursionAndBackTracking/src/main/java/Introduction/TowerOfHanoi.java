@@ -5,7 +5,7 @@ import InputUtilites.InputUtils;
 public class TowerOfHanoi {
 
     public static void main(String[] args) {
-        Integer numberOfRings = InputUtils.inputInteger();
+        Integer numberOfRings = InputUtils.integer();
 
         towerOfHanoi(numberOfRings, "A", "C", "B");
     }
